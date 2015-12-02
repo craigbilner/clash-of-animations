@@ -11,7 +11,7 @@ class UpAndDownComponent extends Component {
       },
       '100%': {
         transform: 'translateY(5em)',
-      }
+      },
     });
 
     this.componentStyle = {

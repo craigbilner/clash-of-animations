@@ -11,7 +11,7 @@ class SideToSideComponent extends Component {
       },
       '100%': {
         transform: 'translateX(5em)',
-      }
+      },
     });
 
     this.componentStyle = {

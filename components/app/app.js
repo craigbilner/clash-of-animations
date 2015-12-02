@@ -1,6 +1,7 @@
 import React from 'react';
 import UpAndDownComponent from '../up-and-down/up-and-down';
 import SideToSideComponent from '../side-to-side/side-to-side';
+import AnimationSummaryComponent from '../animation-summary/animation-summary';
 
 export default () => {
   const demo = {
@@ -16,6 +17,10 @@ export default () => {
       <div style={demo}>
         <h1>side to side</h1>
         <SideToSideComponent />
+      </div>
+      <div style={demo}>
+        <h1>animation summary</h1>
+        <AnimationSummaryComponent />
       </div>
     </div>
   );
