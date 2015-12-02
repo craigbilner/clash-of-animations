@@ -1,5 +1,5 @@
 import React from 'react';
 import { render } from 'react-dom';
-import UpAndDownComponent from './components/up-and-down/up-and-down';
+import App from './components/app/app';
 
-render(<UpAndDownComponent />, document.getElementById('main'));
+render(<App />, document.getElementById('main'));
